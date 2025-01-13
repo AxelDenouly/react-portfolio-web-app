@@ -7,12 +7,12 @@ const HeaderSocials = () => {
             <i className="fa-brands fa-instagram"></i>
         </a>
 
-        <a href="" className="home__social-link" target='_blank'>
-            <i className="fa-brands fa-twitter"></i>
+        <a href="https://fr.linkedin.com/in/axel-denouly-2a229214b" className="home__social-link" target='_blank'>
+            <i className="fa-brands fa-linkedin"></i>
         </a>
 
-        <a href="" className="home__social-link" target='_blank'>
-            <i className="fa-brands fa-pinterest"></i>
+        <a href="tel:+330749785251" className="home__social-link" target='_blank'>
+            <i className="fa-solid fa-phone"></i>
         </a>
 
         <a href="mailto:axeljoo2935@gmail.com" className="home__social-link" target='_blank'>

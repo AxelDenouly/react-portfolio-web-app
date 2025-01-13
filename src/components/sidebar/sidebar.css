@@ -50,15 +50,21 @@
     top: 1.25rem;
     left: 1.875rem;
     cursor: pointer;
-    height: 40px;
-    width: 45px;
+    font-size: 30px;
     background-color: var(--body-color);
     border: 1px solid #e8dfec;
+    border-radius: 5px;
     display: none;
     justify-content: center;
     align-items: center;
     z-index: 1;
     transition: .3s;
+}
+
+@media screen and (max-width: 1310px) {
+    .copyright {
+        margin-top: 15px
+    }
 }
 
 @media screen and (max-width: 1024px) {

@@ -1,9 +1,44 @@
 .main {
     margin-left: 110px;
-}
-
-@media screen and (max-width: 1024px) {
-    .main {
-        margin-left: 0;
+  }
+  
+  /* Styles pour le bouton de changement de thème */
+  .theme-toggle-btn {
+    position: fixed;
+    top: 15px;
+    right: 1.875rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 45px;
+    color: var(--icon-color); /* Vous pouvez personnaliser cette couleur */
+    z-index: 100;
+    transition: all 0.5s ease;
+  }
+  
+  .theme-toggle-btn i {
+    transition: transform 0.5s ease; /* Transition pour rotation */
+  }
+  
+  .theme-toggle-btn i.bx-toggle-right {
+    transform: rotate(360deg);
+  }
+  
+  .theme-toggle-btn:hover {
+    color: var(--text-color); /* Change la couleur au survol pour plus d'interactivité */
+  }
+  
+  @media screen and (max-width: 1310px) {
+    .theme-toggle-btn {
+      right: 2.5%;
+      ;
     }
-}
+  }
+  
+  
+  @media screen and (max-width: 1024px) {
+    .main {
+      margin-left: 0;
+      overflow-x: hidden;
+    }
+  }

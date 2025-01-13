@@ -6,7 +6,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const Resume = () => {
-
   // Animation On Scroll (AOS)
   useEffect(() => {
     AOS.init({ duration: 2000 });
@@ -14,7 +13,7 @@ const Resume = () => {
 
   return (
     <section className="resume container section" id="resume">
-      <h2 className="section__title">Experience</h2>
+      <h2 className="section__title">Experiences</h2>
 
       <div className="resume__container grid">
         <div className="timeline grid" data-aos="fade-right">
