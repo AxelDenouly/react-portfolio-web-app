@@ -3,7 +3,7 @@ import "./goals.css";
 import Image1 from "../../assets/Image1.svg";
 import Image2 from "../../assets/Image2.svg";
 // import Image3 from "../../assets/Image3.svg";
-// import Image4 from "../../assets/Image4.svg";
+import Linux_image from "../../assets/Linux_image.png";
 import Kaali_linux from "../../assets/Kaali_linux.png";
 import Data_big from "../../assets/Data_big.png";
 import AOS from "aos";
@@ -13,30 +13,30 @@ const data = [
   {
     id: 1,
     image: Image1,
-    title: "Full-Stack Web Development",
+    title: "Développeur Full-Stack",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur beatae neque ea, a iste dolore.",
+      "J'ai aimé cette aspect de l'informatique pendant mes cours sur Udemy. C'est un domaine passionnant qui m'intéresse aussi et j'aimerais avoir une très bonne base dans ce domaine, ce qui serait complémentaire avec les autres spécialités que j'aimerais apprendre.",
   },
   {
     id: 2,
     image: Image2,
-    title: "Mobile App Development",
+    title: "Développement d'App Mobile",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur beatae neque ea, a iste dolore.",
+      "Je trouve cette sépecialié de l'informatique aussi passionnante et importante car nous faisons de nos jours presque tout sur nos appareils mobile. Cela me serait donc bénéfique à moi-même et à mon entourage de savoir développer des Apps mobile et aussi d'être utile à mon entreprise car je crois que c'est toujours bien d'avoir une personne de notre entourage qui est un couteau suisse, et moi je veux être cette personne.",
   },
   {
     id: 3,
     image: Kaali_linux,
-    title: "Ethical Hacking",
+    title: "Cyber Securité",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur beatae neque ea, a iste dolore.",
+      "La cyber sécurité est un domaine qui m'a toujours passionné. Depuis l'enfance, j'ai toujours aimé mettre des mots de passe sur des appareils pour les sécuriser ou aussi pour taquiner mes connaissances qui étaient tous obligés d'avoir ma permission avant d'utiliser mes appareils. Avec le temps, on a tous constaté que la sécurité numérique est devenue primordiale. Je veux donc faire partie de ces personnes qui aide à rendre ce monde numérique plus sûr.",
   },
   {
     id: 4,
     image: Data_big,
-    title: "Data Base Science",
+    title: "Science des bases de données",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur beatae neque ea, a iste dolore.",
+      "Savoir gerer des bases de données est aussi une chose importante de nos jours, Cela aide dans beaucoup de domaines, et c'est aussi une obligation d'en avoir une bonne base quand on veut faire du Full Stack. Je veux aussi apprendre ce domaine encore une fois pour être utile à mon entreprise en tant que personne polyvalente et aussi pour moi-même car j'aime avoir diverses connaissances.",
   },
 ];
 
@@ -48,7 +48,7 @@ const Goals = () => {
 
   return (
     <section className="services container section" id="goals">
-      <h2 className="section__title">Goals</h2>
+      <h2 className="section__title">Objectifs</h2>
 
       <div className="services__container grid">
         {data.map(({ id, image, title, description }) => {

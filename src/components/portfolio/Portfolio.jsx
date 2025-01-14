@@ -2,13 +2,13 @@ import React, { useEffect, useState } from "react";
 import "./portfolio.css";
 import Menu from "./Menu";
 import AOS from "aos";
-import 'aos/dist/aos.css';
+import "aos/dist/aos.css";
 
 const Portfolio = () => {
   const [items, setItems] = useState(Menu);
 
   useEffect(() => {
-    AOS.init({duration: 2000})
+    AOS.init({ duration: 2000 });
   }, []);
 
   const filterItem = (categoryItem) => {
@@ -21,11 +21,11 @@ const Portfolio = () => {
 
   return (
     <section className="work container section" id="portfolio">
-      <h2 className="section__title">Recent Works</h2>
+      <h2 className="section__title">Travaux Récents</h2>
 
       <div className="work__filters">
         <span className="work__item" onClick={() => setItems(Menu)}>
-          Everything
+          Tout
         </span>
         <span className="work__item" onClick={() => filterItem("Python")}>
           Python
@@ -37,7 +37,7 @@ const Portfolio = () => {
           className="work__item"
           onClick={() => filterItem("HTML/CSS/JavaScript")}
         >
-          HTML/CSS/JavaScript
+          HTML - CSS - JavaScript
         </span>
       </div>
 
@@ -52,7 +52,11 @@ const Portfolio = () => {
 
                 <span className="work__category">{category}</span>
                 <h3 className="work__title">{title}</h3>
-                <a href="https://axeldenouly.github.io/Axel-Denouly_Portfolio/portfolio_more.html" target="_blank" className="work__button">
+                <a
+                  href="https://axeldenouly.github.io/Axel-Denouly_Portfolio/portfolio_more.html"
+                  target="_blank"
+                  className="work__button"
+                >
                   <i className="icon-link"></i>
                 </a>
               </div>
@@ -62,13 +66,13 @@ const Portfolio = () => {
       </div>
 
       <div className="real__img__link">
-        <h3>Works With Real Images</h3>
+        <h3>Travaux Avec Images Réelles</h3>
         <a
-          href="https://axeldenouly.github.io/Axel-Denouly_Portfolio/portfolio_more.html"
+          href="https://axeldenouly.github.io/Portfolio-Web-App-React-All-Project/"
           target="_blank"
           className="real__link"
         >
-          Click Here <i className="icon-link"></i>
+          Cliquer Ici <i className="icon-link"></i>
         </a>
       </div>
     </section>

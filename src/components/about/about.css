@@ -33,6 +33,11 @@
 
 .about__skills {
     row-gap: 1.25rem;
+    margin-left: 2.5rem;
+}
+
+h2.h2_padd {
+    padding-bottom: 1rem;
 }
 
 .skills__titles {
@@ -49,6 +54,10 @@
 .skills__number {
     line-height: 1.2;
 }
+
+.skills__data ul {
+    list-style-type: square;
+  }
 
 .skills__bar,
 .skills__percentage {
