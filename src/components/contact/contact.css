@@ -32,7 +32,7 @@
     height: 100%;
     box-shadow: var(--shadow);
     border-color: var(--container-color);
-    color: var(--text-color);
+    color: hsl(244, 16%, 43%);
     border: none;
     outline: none;
     border-radius: 1.875rem;
